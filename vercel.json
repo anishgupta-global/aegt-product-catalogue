@@ -1,4 +1,5 @@
 {
-  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "X-Content-Type-Options", "value": "nosniff" }] }],
-  "cleanUrls": false
+  "cleanUrls": true,
+  "redirects": [{"source": "/de", "destination": "/de/", "permanent": true}, {"source": "/en", "destination": "/en/", "permanent": true}, {"source": "/zh", "destination": "/zh/", "permanent": true}],
+  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "X-Content-Type-Options", "value": "nosniff" }] }]
 }
